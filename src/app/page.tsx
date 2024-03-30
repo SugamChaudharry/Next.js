@@ -1,5 +1,12 @@
-import { FeaturedCourses, HeroSection, WhyChooseUs, TestimonialCards } from "@/components";
-import Image from "next/image";
+import {
+  FeaturedCourses,
+  HeroSection,
+  WhyChooseUs,
+  TestimonialCards,
+  UpcomingWebinars,
+  Instructors,
+  Footer
+} from "@/components";
 
 export default function Home() {
   return (
@@ -8,6 +15,9 @@ export default function Home() {
       <FeaturedCourses />
       <WhyChooseUs />
       <TestimonialCards />
+      <UpcomingWebinars />
+      <Instructors />
+      <Footer />
     </main>
   );
 }
