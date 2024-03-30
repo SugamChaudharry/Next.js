@@ -1,4 +1,4 @@
-import { FeaturedCourses, HeroSection } from "@/components";
+import { FeaturedCourses, HeroSection, WhyChooseUs } from "@/components";
 import Image from "next/image";
 
 export default function Home() {
@@ -6,6 +6,7 @@ export default function Home() {
     <main className="min-h-screen">
       <HeroSection />
       <FeaturedCourses />
+      <WhyChooseUs />
     </main>
   );
 }

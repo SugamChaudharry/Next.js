@@ -1,9 +1,11 @@
 import Navbar from './Navbar'
-import HeroSection from './ui/HeroSection'
+import HeroSection from './HeroSection'
 import FeaturedCourses from './FeaturedCourses'
+import WhyChooseUs from './WhyChooseUs'
 
 export {
     Navbar,
     HeroSection,
-    FeaturedCourses
+    FeaturedCourses,
+    WhyChooseUs
 }
