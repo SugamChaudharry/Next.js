@@ -16,7 +16,7 @@ function page() {
                     translateZ="50"
                     className="text-xl font-bold text-neutral-600 dark:text-white"
                   >
-                    {course.title}import Link from "next/link";
+                    {course.title}import Link from &quot;next/link&quot;
 
                   </CardItem>
                   <CardItem
