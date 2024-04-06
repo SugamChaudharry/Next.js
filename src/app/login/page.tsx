@@ -7,7 +7,7 @@ import Link from "next/link";
 import { Boxes } from "@/components/ui/background-boxes";
 import { Navbar } from "@/components";
 
-export default function loginPage() {
+export default function LoginPage() {
   const router = useRouter();
   const [user, setUser] = useState({
     email: "",
