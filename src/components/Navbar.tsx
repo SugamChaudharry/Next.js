@@ -12,7 +12,6 @@ function Navbar({ className }: { className?: string }) {
   const router = useRouter();
   const [user, setUser] = useState(false);
 
-  useEffect(() => {
     const fetchData = async () => {
       try {
         const response = await axios.post("/api/users/me");
@@ -23,7 +22,6 @@ function Navbar({ className }: { className?: string }) {
       }
     }
     fetchData();
-  }, []);
 
   const logout = async () => {
     try {
